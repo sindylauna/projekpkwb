@@ -11,15 +11,21 @@
                             <table class="table align-items-center mb-0">
                                 <tbody>
                                     {{-- <form action="{{route('')}}" method="POST" enctype="multipart/form-data">
-                    @csrf --}}
+                             @csrf --}}
                                     <tr>
                                         <td>
-                                            <div class="d-flex px-2 py-1">
+                                            <div class="d-flex px-5 py-1">
                                                 <div class="row w-100">
                                                     <div class="card-header pb-0">
-
                                                     </div>
-                                                    {{-- akta pendirian --}}
+                                                    {{-- Tahun --}}
+                                                    <div class="form-group">
+                                                        <label for="tahun">Tahun</label>
+                                                        <input type="number" name="tahun" id="tahun"
+                                                            class="form-control" placeholder="Masukkan Tahun"
+                                                            required>
+                                                    </div>
+                                                    {{-- Bulan --}}
                                                     <div class="form-group">
                                                         <label for="month">Bulan</label>
                                                         <select name="month" id="month" class="form-control" required>
@@ -50,12 +56,12 @@
                                                             class="form-control" placeholder="Masukkan target bulanan"
                                                             required>
                                                     </div>
-                                                    <div class="form-group">
+                                                    <!-- <div class="form-group">
                                                         <label for="actual_sales">Realisasi Penjualan (Rp)</label>
                                                         <input type="number" name="actual_sales" id="actual_sales"
                                                             class="form-control" placeholder="Masukkan realisasi penjualan"
                                                             required>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                             <div class="px-4 py-1">

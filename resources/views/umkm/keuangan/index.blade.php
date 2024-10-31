@@ -19,7 +19,7 @@
                             <div class="d-flex px-5 py-1">
                                 <div class="row w-100">
                                 <div class="card-header pb-0">
-                                    <h6>Keuangan Perbulan</h6>
+                                    <h6> Keuangan Perbulan </h6>
                                 </div>
                                     {{-- akta pendirian --}}
                                     <div class="col-md-6">
